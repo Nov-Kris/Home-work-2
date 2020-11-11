@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 370px;
+    width: 100%;
+    padding: 40px 60px 60px;
+    margin: 0px 20px 30px;
+    background-color: #f2f3f5;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.card_image {
+    flex-shrink: 0;
+    max-width: 270px;
+    max-height: 270px;
+}
+.card_button {
+    border: none;
+    border-radius: 5px;
+    padding: 14px 64px ;
+    background-color: #1d60f6;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.card_header {
+    text-align: center 
+}
