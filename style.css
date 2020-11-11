@@ -32,3 +32,6 @@
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+.card_header {
+    text-align: center
+}
